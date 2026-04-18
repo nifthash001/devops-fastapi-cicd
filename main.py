@@ -7,7 +7,7 @@ import string
 app = FastAPI()
 
 url_store = {}
-
+# This is a simple URL shortening service. It generates a random 6-character code for each URL and stores it in memory.
 class URLRequest(BaseModel):
     url: str
 
